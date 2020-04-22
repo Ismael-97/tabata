@@ -322,7 +322,7 @@ class Tube(Opset):
             progress_bar.value = 0
         if message_label:
             message_label.value = ""
-        return UD #self.rewind(sigpos)
+        return self.rewind(sigpos)
     
     
     def estimate(self, name=None):
